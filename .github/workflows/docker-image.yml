@@ -30,4 +30,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: ${{ vars.DOCKERHUB_USERNAME }}/grade-vhdl:latest
+          tags: ${{ vars.DOCKERHUB_USERNAME }}/grade-vhdl
