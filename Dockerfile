@@ -8,7 +8,10 @@ RUN apt_install \
     build-essential \
     git \
     make \
-    wget
+    wget \
+    python3-dev \
+    libpython3-dev \
+    pkg-config
 
 RUN pip_install \
     cocotb \
