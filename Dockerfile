@@ -1,5 +1,5 @@
 ARG BASE_TAG=latest
-FROM --platform=$TARGETPLATFORM apluslms/grade-python:$BASE_TAG
+FROM apluslms/grade-python:$BASE_TAG
 
 ENV DEBIAN_FRONTEND=noninteractive
 
